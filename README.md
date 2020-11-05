@@ -3,7 +3,7 @@ Hello world
 1. preact (as external library from cdn)
 
 ```html
- <script type="module">
+<script type="module">
   import {h, Component, render} from 'https://unpkg.com/preact?module';
   const app = h('h1', null, 'Hello World!');
   render(app, document.body);
